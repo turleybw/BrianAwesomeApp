@@ -11,7 +11,7 @@ Install and Run
     # or fork your own and use your read-write github url
 
     cd BrianAwesomeApp
-    node server/ 3333
+    node server/ 4444
 
 Then open your browser to <http://localhost:4444>
 
