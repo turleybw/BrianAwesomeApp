@@ -1,0 +1,9 @@
+.*.sw*
+*~
+*.html
+*.css
+pakmanag*
+node_modules
+public
+db.json*
+npm-debug.log

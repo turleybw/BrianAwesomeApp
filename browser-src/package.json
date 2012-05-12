@@ -1,0 +1,19 @@
+{
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.info/)",
+  "name": "BrianAwesomeApp-browser",
+  "description": "This is the browser-client for BrianAwesomeApp",
+  "version": "0.0.0",
+  "main": "lib/index",
+  "dependencies": {
+    "domready": "~0.2.11",
+    "bonzo": "~1.0.6",
+    "qwery": "~3.3.6",
+    "bean": "~0.4.11-1",
+    "ahr2": "~2.2.11"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

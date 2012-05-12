@@ -1,0 +1,16 @@
+{
+  "author": "AJ ONeal <coolaj86@gmail.com> (http://coolaj86.info/)",
+  "name": "BrianAwesomeApp",
+  "description": "A demo for Brian, so he can learn",
+  "version": "0.0.0",
+  "main": "lib/index",
+  "dependencies": {
+    "connect": "2.2.x",
+    "connect_router": "~1.8.6"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
