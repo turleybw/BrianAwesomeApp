@@ -26,7 +26,8 @@
 
   function putDb(req, res) {
     if (req.body) {
-      saveDb(req.body);
+      db.push(req.body)
+      saveDb(db);
     }
 
     res.setHeader('Content-Type', 'application/json');
@@ -51,7 +52,7 @@
       try {
         db = JSON.parse(fs.readFileSync('db.json.bak'));
       } catch(e) {
-        db = {};
+        db = [];
         saveDb(db);
       }
     }
