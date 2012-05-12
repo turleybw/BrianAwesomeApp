@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# sudo npm install -g jade lessc coffee-script jshint uglify-js pakmanager
+# sudo npm install -g jade less coffee-script jshint uglify-js pakmanager
 
 pushd server
   npm install
