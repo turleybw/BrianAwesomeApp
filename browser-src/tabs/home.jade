@@ -1,7 +1,7 @@
-#home
-  p.
-    This is my home. I love it here so much.
-
+#wrapper
+ #home
+  h1
+    This is my home.
   form#contact-form
     label(for='first') First:
     input(name='first')
@@ -20,5 +20,5 @@
     input(name='file',type='file')
     br
     label(for='description') File description
-    input(name='description')
+    input.field-size(name='description')
     input(type='submit',value='Send Info')
