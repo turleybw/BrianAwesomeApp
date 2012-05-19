@@ -9,7 +9,7 @@
     ;
 
   function templatePage() {
-    Home.put('Welcome to my humble abode');
+    Home.put('Welcome to the Awesome App');
   }
   
   domReady(templatePage);
