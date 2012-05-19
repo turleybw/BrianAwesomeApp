@@ -9,7 +9,8 @@
     "bonzo": "~1.0.6",
     "qwery": "~3.3.6",
     "bean": "~0.4.11-1",
-    "ahr2": "~2.2.11"
+    "ahr2": "~2.2.11",
+    "connect_router": "~1.8.6"
   },
   "devDependencies": {},
   "optionalDependencies": {},

@@ -21,7 +21,9 @@
       , last: $form.find('input[name="last"]').val()
       , tel: $form.find('input[name="tel"]').val()
       , email: $form.find('input[name="email"]').val()
+      , description: $form.find('input[name="description"]').val()
       //, file: $form.find('input[type="file"]').files
+
     };
   }
   
