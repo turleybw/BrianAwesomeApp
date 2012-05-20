@@ -1,0 +1,26 @@
+form#contact-form
+    label(for='first') First:
+    input(name='first')
+    br
+    label(for='last') Last:
+    input(name='last')
+    br
+    label(for='email') Email:
+    input(placeholder='i.e. john.doe@gmail.com',name='email',type='email')Email
+    br
+    label(for='job') what you do:
+    select
+     option(value='volvo') Select
+     option(value='volvo') industrial Designer
+     option(value='saab') Maker
+     option(value='opel') Hacker
+     option(value='audi') Engineer
+    br
+    label(for='tel') phone:
+    input(placeholder='+1.888.888.5555', name='tel',type='tel') phone
+    br
+    label(for='website') website:    
+    input(placeholder='my website', name='website',type='url') website
+    br
+    input(type='submit',value='Save')
+

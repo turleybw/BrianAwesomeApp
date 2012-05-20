@@ -5,9 +5,13 @@ html
     link(href='./style.css', rel='stylesheet', type='text/css')
     script(src='./pakmanaged.js')
 
-  body
-    p.
-      Submit your info here.
-
-    include tabs/home
+body
+  #wrapper  
+    include tabs/header
+    hr
+    p
+     |Check out the gallery
+    include tabs/gallery
+    hr
+    include tabs/footer
 
